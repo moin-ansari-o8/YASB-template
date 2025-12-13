@@ -464,7 +464,7 @@
 .media-menu {
     min-width: 440px;
     max-width: 440px;
-    background-color: rgba(30, 24, 20, 0.85);
+    background-color: rgba(30, 24, 20, 0.7);
     border-radius: 12px;
     position: relative;
     overflow: hidden;

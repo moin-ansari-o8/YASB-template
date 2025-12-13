@@ -1971,3 +1971,11 @@ expected <block end>, but found '<block mapping start>'
 2025-12-14 02:42:31,868 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
 2025-12-14 02:42:31,869 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-12-14 02:42:31,877 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-14 03:04:37,600 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-14 03:04:37,703 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-14 03:04:37,703 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-14 03:04:37,777 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-14 03:04:37,899 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-14 03:04:37,932 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-14 03:04:38,010 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-14 03:04:38,024 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing

@@ -130,7 +130,7 @@ widgets:
         radius: 3
         offset: [1, 1]
       media_menu:
-        blur: false                          # Whether to apply a blur effect to the popup background.
+        blur: true                           # Whether to apply a blur effect to the popup background.
         round_corners: true                  # Whether to round the corners of the popup.
         round_corners_type: "normal"         # The type of corner rounding. Can be "normal" or "symmetric".
         border_color: "system"               # The border color of the popup. Can be a HEX, None or "system".
