@@ -361,7 +361,8 @@
     min-height: 13px;
     max-width: 13px;
     max-height: 13px;
-    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1), 
+                background-color 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .windows-desktops .ws-btn.active {
     color: transparent;
@@ -371,7 +372,8 @@
     height: 13px;
     max-width: 34px;
     max-height: 13px;
-    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1), 
+                background-color 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .windows-desktops .context-menu {
@@ -456,37 +458,16 @@
 .media-widget .btn.disabled {
     color: #4e525c;
     font-size: 12px;
-    background-color: rgba(0, 0, 0, 0);
 }
 .media-menu {
     min-width: 440px;
     max-width: 440px;
-    background-color: rgba(24, 25, 27, 0.95);
+    background-color: rgba(17, 17, 27, 0.4);
+    border-radius: 12px;
     position: relative;
     overflow: hidden;
 }
-.media-menu::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 60px;
-    background: linear-gradient(to right, rgba(24, 25, 27, 0.95) 0%, transparent 100%);
-    pointer-events: none;
-    z-index: 999;
-}
-.media-menu::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 60px;
-    background: linear-gradient(to left, rgba(24, 25, 27, 0.95) 0%, transparent 100%);
-    pointer-events: none;
-    z-index: 999;
-}
+
 .media-menu .title,
 .media-menu .artist,
 .media-menu .source {
@@ -694,24 +675,25 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .notes-widget .label {
     font-size: 14px;
-    color: #dbfeb4;
+    color: #89b4fa;
 }
 .notes-widget .icon {
     font-size: 16px;
-    color: #dbfeb4;
+    color: #89b4fa;
 }
 /* Notes Widget Menu */
 .notes-menu {
     min-width: 400px;
     max-width: 400px;
-    background-color: rgba(17, 17, 27, 0.4);
+    background-color: rgba(30, 30, 46, 0.95);
+    margin: 0 auto;
 }
 .notes-menu .note-item {
     background-color:transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(137, 180, 250, 0.15);
 }
 .notes-menu .note-item:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(137, 180, 250, 0.2);
 }
 .notes-menu .note-item .icon {
     font-size: 16px;
@@ -761,10 +743,10 @@ Example: "Windows Media" becomes "windows-media" */
 .notes-menu .add-button,  
 .notes-menu .cancel-button {
     padding: 8px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(137, 180, 250, 0.15);
     border: none;
     border-radius: 4px;
-    color: white;
+    color: #cdd6f4;
     font-family: 'Segoe UI'
 }
 .notes-menu .cancel-button {
@@ -772,16 +754,16 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .notes-menu .add-button:hover,
 .notes-menu .cancel-button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 .notes-menu .scroll-area {
     background: transparent; 
     border: none; 
     border-radius:0;
+    text-align: center;
 }
 .notes-menu .note-input {
-    background-color:rgba(17, 17, 27, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(137, 180, 250, 0.2);
     font-family: 'Segoe UI';
     font-size: 14px;
     max-height: 30px;
