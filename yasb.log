@@ -1445,3 +1445,32 @@ expected <block end>, but found '<block mapping start>'
 2025-12-13 20:09:13,577 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
 2025-12-13 20:09:13,578 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-12-13 20:09:13,582 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-13 20:19:18,216 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-13 20:19:18,326 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-13 20:19:18,327 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-13 20:19:18,362 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-13 20:19:18,986 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-13 20:19:18,987 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-13 20:19:18,988 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-13 20:19:18,988 [INFO] [MainThread] [root/main.py:45]: Waiting for previous YASB instance to exit...
+2025-12-13 20:19:29,003 [ERROR] [MainThread] [root/main.py:68]: Timeout waiting for previous instance. Aborting start.
+2025-12-13 20:21:28,779 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-13 20:21:28,779 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-13 20:21:28,779 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-13 20:21:28,931 [DEBUG] [MainThread] [pyvda.build/build.py:53]: Starting feature detection...
+2025-12-13 20:21:28,931 [DEBUG] [MainThread] [pyvda.build/build.py:57]: Feature detection complete. Windows version is over 26100
+2025-12-13 20:21:30,078 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-13 20:21:30,169 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-13 20:21:30,546 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-13 20:21:30,549 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\monst\.config\yasb
+2025-12-13 20:21:30,677 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-13 20:21:30,677 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-13 20:21:30,680 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-13 20:26:00,076 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-13 20:26:00,187 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-13 20:26:00,187 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-13 20:26:00,205 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-13 20:26:00,275 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-13 20:26:00,296 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-13 20:26:00,299 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-13 20:26:00,310 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing

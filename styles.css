@@ -422,6 +422,12 @@
 .media-widget {
     padding: 0;
     margin: 0;
+    position: relative;
+    overflow: visible;
+}
+.media-widget .widget-container {
+    position: relative;
+    overflow: visible;
 }
 .media-widget .label {
     color: #d2d6e2;
@@ -430,6 +436,8 @@
     font-size: 12px;
     background-color: rgba(17, 17, 27, 0.6);
     border-radius: 8px;
+    position: relative;
+    z-index: 2;
 }
 .media-widget .btn {
     color: #9498a8;
@@ -786,6 +794,7 @@ Example: "Windows Media" becomes "windows-media" */
 /* Clock Widget Styles */
 .clock-widget {
     padding: 0 4px 0 0px;
+    margin-right: 8px;
 }
 .clock-widget .icon {
     color: #89dceb;
