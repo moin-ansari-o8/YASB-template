@@ -39,7 +39,7 @@ bars:
       right: 6
     widgets:
       left: ["windows_workspaces", "traffic"]
-      center: ["clock","notes"]
+      center: ["clock","todo"]
       right:
         [
           "media",
@@ -48,7 +48,6 @@ bars:
           "cpu",
           "memory",
           "notifications",
-          "wallpapers",
           "power_menu",
         ]
 widgets:
@@ -414,8 +413,8 @@ widgets:
   memory:
     type: "yasb.memory.MemoryWidget"
     options:
-      label: "<span>\uf4bc</span> {virtual_mem_percent}"
-      label_alt: "<span>\uf4bc</span> VIRT: {virtual_mem_percent}% SWAP: {swap_mem_percent}%"
+      label: "<span>\uf233</span> {virtual_mem_percent}"
+      label_alt: "<span>\uf233</span> VIRT: {virtual_mem_percent}% SWAP: {swap_mem_percent}%"
       update_interval: 5000
       callbacks:
         on_left: "toggle_label"
@@ -443,7 +442,7 @@ widgets:
   traffic:
     type: "yasb.traffic.TrafficWidget"
     options:
-      label: "\ueab4 {download_speed} | \ueab7 {upload_speed}"
+      label: "{download_speed} | {upload_speed}"
       label_alt: "Download {download_speed} | Upload {upload_speed}"
       update_interval: 1000
       menu:
@@ -473,33 +472,43 @@ widgets:
         color: "black"
         radius: 3
         offset: [1, 1]
-  notes:
-    type: "yasb.notes.NotesWidget"
+  todo:
+    type: "yasb.todo.TodoWidget"
     options:
-      label: "<span>\udb82\udd0c</span> {count}"
-      label_alt: "{count} notes"
-      # data_path: "~/Documents/my-notes.json"  # Optional: custom JSON file path
+      label: "\uf0ae {count}/{completed}"
+      label_alt: "\uf0ae Tasks: {count}"
+      # data_path: "~/Documents/my-todos.json"  # Optional: custom JSON file path
       menu:
         blur: true
         round_corners: true
         round_corners_type: "normal"
-        border_color: "System"
-        alignment: "right"
+        border_color: "system"
+        alignment: "center"
         direction: "down"
         offset_top: 6
         offset_left: 0
-        max_title_size: 150
-        show_date_time: true
       icons:
-        note: "\udb82\udd0c"
-        delete: "\ueab8"
-        copy: "\uebcc"
+        add: "\uf501 New Task"
+        edit: "Edit"
+        delete: "Delete"
+        date: "\ue641"
+        category: "\uf412"
+        checked: "\udb80\udd34"
+        unchecked: "\udb80\udd30"
+        sort: "\ueab4"
+        no_tasks: "\uf4a0"
+      categories:
+        default:
+          label: "General"
+        soon:
+          label: "Complete soon"
+        today:
+          label: "End of day"
+        urgent:
+          label: "Urgent"
+        important:
+          label: "Important"
       callbacks:
         on_left: "toggle_menu"
         on_middle: "do_nothing"
         on_right: "toggle_label"
-      label_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [ 1, 1 ]
