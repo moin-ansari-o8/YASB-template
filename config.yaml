@@ -42,13 +42,10 @@ bars:
           "memory","todo"]
       center: ["clock"]
       right:
-        ["traffic",
-          "media",
+        ["media","traffic",
           "microphone",
           "volume",
-          
           "notifications",
-          "power_menu",
         ]
 widgets:
   home:
@@ -455,8 +452,8 @@ widgets:
   todo:
     type: "yasb.todo.TodoWidget"
     options:
-      label: "\uf0ae {count}/{completed}"
-      label_alt: "\uf0ae Tasks: {count}"
+      label: "<span>\uf0ae</span> {count}/{completed}"
+      label_alt: "<span>\uf0ae</span> Tasks: {count}"
       # data_path: "~/Documents/my-todos.json"  # Optional: custom JSON file path
       menu:
         blur: true
@@ -544,7 +541,7 @@ widgets:
       noise_reduction: 10.85
       monstercat: 0
       waves: 1
-      sensitivity: 100
+      sensitivity: 70
       sleep_timer: 5
       hide_empty: true
       edge_fade: [8, 8]

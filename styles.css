@@ -927,12 +927,15 @@ Example: "Windows Media" becomes "windows-media" */
     padding: 0 6px 0 6px;
 }
 .todo-widget .icon {
-    color: #c9a66b;
+    color: #b8956a;
     padding: 0;
 }
 .todo-widget .label {
     font-size: 12px;
     padding: 0;
+}
+.todo-widget .label span {
+    color: #b8956a;
 }
 /* Todo Menu Styles */
 .todo-menu {
