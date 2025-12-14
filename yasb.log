@@ -3728,3 +3728,81 @@ cerberus.validator.DocumentError: document is missing
 2025-12-14 12:49:12,590 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
 2025-12-14 12:49:12,590 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-12-14 12:49:12,593 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-14 12:57:52,049 [ERROR] [Dummy-7] [core.utils.widgets.media.media/media.py:266]: MediaCallback: Error occurred whilst fetching media properties and thumbnail: [WinError -2147024875] The device is not ready.
+2025-12-14 13:03:55,838 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-14 13:03:55,954 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-14 13:03:55,954 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-14 13:03:55,964 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-14 13:03:56,080 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-14 13:03:56,131 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-14 13:03:56,138 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-14 13:03:56,147 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-14 13:03:57,144 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-14 13:03:57,145 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-14 13:03:57,146 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-14 13:03:57,274 [INFO] [MainThread] [root/main.py:98]: Debug mode enabled.
+2025-12-14 13:03:57,453 [DEBUG] [MainThread] [pyvda.build/build.py:53]: Starting feature detection...
+2025-12-14 13:03:57,454 [DEBUG] [MainThread] [pyvda.build/build.py:57]: Feature detection complete. Windows version is over 26100
+2025-12-14 13:03:58,770 [INFO] [MainThread] [root/traffic.py:99]: Internet checker initialized for interface auto
+2025-12-14 13:03:58,822 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-14 13:03:58,941 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-14 13:03:59,010 [INFO] [MainThread] [root/app_bar.py:118]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 38px, DPI Scale: 1.0]
+2025-12-14 13:03:59,299 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-14 13:03:59,302 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\monst\.config\yasb
+2025-12-14 13:03:59,449 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-14 13:03:59,449 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-14 13:03:59,452 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-14 13:04:06,142 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-14 13:04:06,245 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-14 13:04:06,246 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-14 13:04:06,254 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-14 13:04:06,356 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-14 13:04:06,413 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-14 13:04:06,428 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-14 13:04:06,436 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-14 13:04:07,240 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-14 13:04:07,241 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-14 13:04:07,242 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-14 13:04:07,342 [INFO] [MainThread] [root/main.py:98]: Debug mode enabled.
+2025-12-14 13:04:07,466 [DEBUG] [MainThread] [pyvda.build/build.py:53]: Starting feature detection...
+2025-12-14 13:04:07,467 [DEBUG] [MainThread] [pyvda.build/build.py:57]: Feature detection complete. Windows version is over 26100
+2025-12-14 13:04:08,420 [INFO] [MainThread] [root/traffic.py:99]: Internet checker initialized for interface auto
+2025-12-14 13:04:08,458 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-14 13:04:08,547 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-14 13:04:08,595 [INFO] [MainThread] [root/app_bar.py:118]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 38px, DPI Scale: 1.0]
+2025-12-14 13:04:08,804 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-14 13:04:08,807 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\monst\.config\yasb
+2025-12-14 13:04:08,932 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-14 13:04:08,932 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-14 13:04:08,938 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-14 13:04:24,971 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-14 13:04:25,080 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-14 13:04:25,081 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-14 13:04:25,096 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-14 13:04:25,203 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-14 13:04:25,272 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-14 13:04:25,282 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-14 13:04:25,290 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-12-14 13:04:26,033 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2025-12-14 13:04:26,034 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-14 13:04:26,035 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-14 13:04:26,130 [INFO] [MainThread] [root/main.py:98]: Debug mode enabled.
+2025-12-14 13:04:26,242 [DEBUG] [MainThread] [pyvda.build/build.py:53]: Starting feature detection...
+2025-12-14 13:04:26,243 [DEBUG] [MainThread] [pyvda.build/build.py:57]: Feature detection complete. Windows version is over 26100
+2025-12-14 13:04:27,185 [INFO] [MainThread] [root/traffic.py:99]: Internet checker initialized for interface auto
+2025-12-14 13:04:27,237 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-14 13:04:27,370 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-14 13:04:27,431 [INFO] [MainThread] [root/app_bar.py:118]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 38px, DPI Scale: 1.0]
+2025-12-14 13:04:27,658 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2025-12-14 13:04:27,661 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\monst\.config\yasb
+2025-12-14 13:04:27,796 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2025-12-14 13:04:27,797 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-14 13:04:27,801 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-14 13:04:40,779 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-12-14 13:04:40,891 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-12-14 13:04:40,892 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-12-14 13:04:40,905 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-12-14 13:04:41,006 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping WindowsNotificationEventListener...
+2025-12-14 13:04:41,058 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-12-14 13:04:41,063 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-12-14 13:04:41,070 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
