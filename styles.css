@@ -444,14 +444,14 @@
     z-index: 2;
 }
 .media-widget .btn {
-    color: #9b8b7e;
+    color: #b8956a;
     padding: 0 4px;
     margin: 0;
     font-family: "Segoe Fluent Icons";
     font-weight: 400;
 }
 .media-widget .btn:hover {
-    color: #c9a66b;
+    color: #d4c5b0;
 }
 .media-widget .btn.play {
     font-size: 16px;
