@@ -2,7 +2,7 @@
 # For more information about configuration options, please visit the Wiki https://github.com/amnweb/yasb/wiki
 watch_stylesheet: true
 watch_config: true
-debug: false
+debug: true
 update_check: true # Enable automatic update check.
 komorebi:
   start_command: "komorebic start --whkd"
@@ -38,15 +38,15 @@ bars:
       bottom: 0
       right: 6
     widgets:
-      left: ["windows_workspaces", "traffic"]
-      center: ["clock","todo"]
+      left: ["home","windows_workspaces","cava","cpu",
+          "memory","todo"]
+      center: ["clock"]
       right:
-        [
+        ["traffic",
           "media",
           "microphone",
           "volume",
-          "cpu",
-          "memory",
+          
           "notifications",
           "power_menu",
         ]
@@ -56,10 +56,10 @@ widgets:
     options:
       label: "<span>\udb81\udf17</span>"
       menu_list:
-        - { title: "My Crib", path: "~" }
-        - { title: "Loot Bag", path: "~\\Downloads" }
-        - { title: "Boring Stuff", path: "~\\Documents" }
-        - { title: "Cursed Memories", path: "~\\Pictures" }
+        - { title: "My Crib", path: "C:\\Users\\monst" }
+        - { title: "Loot Bag", path: "C:\\Users\\monst\\Downloads" }
+        - { title: "Boring Stuff", path: "C:\\Users\\monst\\Documents" }
+        - { title: "Cursed Memories", path: "C:\\Users\\monst\\Pictures" }
       system_menu: true
       power_menu: true
       blur: false
@@ -313,12 +313,12 @@ widgets:
       animation_duration: 200
       button_row: 5
       buttons:
-        shutdown: ["\uf011", "Rage Quit"]
-        restart: ["\uead2", "Oops, Reboot"]
-        signout: ["\udb80\udf43", "Dip Out"]
-        hibernate: ["\uf28e", "Bear Mode"]
-        sleep: ["\u23fe", "Nap Time"]
-        cancel: ["", "Nah, Im Good "]
+        shutdown: ["\uf011", "Shutdown"]
+        restart: ["\uead2", "Restart"]
+        signout: ["\udb80\udf43", "Sign Out"]
+        hibernate: ["\uf28e", "Hibernate"]
+        sleep: ["\u23fe", "Sleep"]
+        cancel: ["", "Cancel"]
   apps:
     type: "yasb.applications.ApplicationsWidget"
     options:
@@ -362,26 +362,6 @@ widgets:
         lazy_load_fadein: 400
         image_corner_radius: 20
         enable_cache: true
-  cava:
-    type: "yasb.cava.CavaWidget"
-    options:
-      bar_height: 12
-      min_bar_height: 0
-      gradient: 1
-      reverse: 0
-      foreground: "#89b4fa"
-      gradient_color_1: "#74c7ec"
-      gradient_color_2: "#89b4fa"
-      gradient_color_3: "#cba6f7"
-      bars_number: 8
-      bar_spacing: 2
-      bar_width: 4
-      hide_empty: true
-      container_padding:
-        top: 0
-        left: 8
-        bottom: 0
-        right: 8
   cpu:
     type: "yasb.cpu.CpuWidget"
     options:
@@ -512,3 +492,65 @@ widgets:
         on_left: "toggle_menu"
         on_middle: "do_nothing"
         on_right: "toggle_label"
+  home:
+    type: "yasb.home.HomeWidget"
+    options:
+      label: "<span>\udb81\udf17</span>"
+      menu_list:
+      - { title: "User Home", path: "C:\\Users\\monst" }
+      - { title: "Download", path: "C:\\Users\\monst\\Downloads" }
+      - { title: "Documents", path: "C:\\Users\\monst\\Documents" }
+      - { title: "Pictures", path: "C:\\Users\\monst\\OneDrive\\Pictures" }
+      system_menu: true
+      power_menu: true
+      blur: true
+      round_corners: true
+      round_corners_type: "normal"
+      border_color: "System"
+      offset_top: 6
+      offset_left: 0
+      alignment: "left"
+      direction: "down"
+      menu_labels:
+        shutdown: "Shutdown"
+        restart: "Restart"
+        hibernate: "Hibernate"
+        logout: "Logout"
+        lock: "Lock"
+        sleep: "Sleep"
+        system: "System Settings"
+        about: "About This PC"
+        task_manager: "Task Manager"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+  cava:
+    type: "yasb.cava.CavaWidget"
+    options:
+      bar_height: 16
+      min_bar_height: 2
+      gradient: 1
+      foreground: "#d4c5b0"
+      gradient_color_1: '#8b6f47'
+      gradient_color_2: '#b8956a'
+      gradient_color_3: '#d4c5b0'
+      bars_number: 20
+      bar_spacing: 3
+      bar_width: 3
+      bar_type: "bars"
+      framerate: 60
+      noise_reduction: 10.85
+      monstercat: 0
+      waves: 1
+      sensitivity: 100
+      sleep_timer: 5
+      hide_empty: true
+      edge_fade: [8, 8]
+      lower_cutoff_freq: 50
+      higher_cutoff_freq: 20000
+      callbacks:
+        on_left: "do_nothing"
+        on_middle: "do_nothing"
+        on_right: "reload_cava"
