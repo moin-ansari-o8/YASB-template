@@ -31,10 +31,10 @@ themes:
     primary: "#a0d0e8"           # Cooler blue accent
     primary_dim: "#7098b8"       # Dimmer blue
     primary_hover: "#b8e0f8"     # Hover blue
-    # Text colors - exact same cyan-blue as clock popup reference
-    text_primary: "#8bb8d8"      # Main cyan-blue text (same as clock)
-    text_secondary: "#8bb8d8"    # Same cyan-blue
-    text_tertiary: "#a0c8e8"     # Slightly lighter variant
+    # Text colors - white snow variants
+    text_primary: "#e8f0f8"      # Snow white with slight blue tint
+    text_secondary: "#d0d8e0"    # Medium snow white
+    text_tertiary: "#c0c8d0"     # Darker snow white
     # Background colors - very transparent with blur
     bg_primary: "rgba(255, 255, 255, 0.15)"     # Main bar - very transparent white
     bg_secondary: "rgba(250, 252, 255, 0.25)"   # Popup backgrounds - slightly less transparent

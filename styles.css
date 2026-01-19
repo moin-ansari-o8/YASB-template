@@ -354,15 +354,16 @@
 }
 .windows-desktops .ws-btn {
     color: transparent;
-    border: none;
+    border: 2px solid var(--text-primary);
     font-size: 0px;
     margin: 0 3px;
+    margin-bottom: 3px;
     padding: 0;
-    background-color: var(--primary-dim);
-    opacity: 0.3;
-    border-radius: 5px;
-    width: 13px;
-    height: 13px;
+    background-color: transparent;
+    opacity: 0.9;
+    border-radius: 8px;
+    width: 10px;
+    height: 8px;
     min-width: 13px;
     min-height: 13px;
     max-width: 13px;
@@ -372,10 +373,11 @@
 }
 .windows-desktops .ws-btn.active {
     color: transparent;
+    border: none;
     background-color: var(--primary);
-    border-radius: 5px;
-    width: 34px;
-    height: 13px;
+    border-radius: 7px;
+    width: 37px;
+    height: 16px;
     max-width: 34px;
     max-height: 13px;
     transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1), 
