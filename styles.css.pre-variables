@@ -12,7 +12,7 @@
 .yasb-bar {
 	padding: 0 8px;
 	margin: 0;
-    background-color: var(--bg-primary);
+    background-color: rgba(35, 28, 24, 0.6);
     border-radius: 16px;
 }
 .widget {
@@ -44,29 +44,29 @@
     border: none;
     padding: 0 2px 0 2px;
     margin: 0;
-    color: var(--text-secondary);
+    color: #9b8b7e;
 }
 
 .glazewm-workspaces .ws-btn.active_populated {
-    color: var(--primary);
+    color: #b8956a;
 }
 
 .glazewm-workspaces .ws-btn.active_empty {
-    color: var(--primary);
+    color: #b8956a;
 }
 
 .glazewm-workspaces .ws-btn.populated {
-    color: var(--primary-dim);
+    color: #8b6f47;
 }
 
 .glazewm-workspaces .ws-btn.empty {
-    color: var(--text-secondary);
+    color: #9b8b7e;
 }
 
 .glazewm-workspaces .ws-btn:hover,
 .glazewm-workspaces .ws-btn.populated:hover,
 .glazewm-workspaces .ws-btn.empty:hover {
-    color: var(--primary);
+    color: #b8956a;
 }
 
 .glazewm-tiling-direction {
@@ -79,12 +79,12 @@
     font-size: 18px;
     width: 14px;
     padding: 0 4px 0 4px;
-    color: var(--text-primary);
+    color: #d4c5b0;
     border: none;
 }
 
 .glazewm-tiling-direction .btn:hover {
-    background-color: var(--bg-button-hover);
+    background-color: #5a4a3a;
 }
 /*POWER MENU WIDGET*/
 /* Uptime text */
@@ -96,7 +96,7 @@
 	font-family: "JetBrainsMono NFP";
 }
 .power-menu-widget .label {
-	color: var(--accent-warm);
+	color: #c17a5c;
 	font-size: 16px;
 }
 .power-menu-popup .button {
@@ -104,15 +104,15 @@
 	width: 160px;
 	height: 240px;
 	border-radius: 4px;
-	background-color: var(--bg-secondary);
+	background-color: rgba(45, 36, 30, 0.75);
 	font-family: "JetBrainsMono NFP";
 	color: white;
 	border: 4px solid rgba(255, 255, 255, 0);
  
 }
 .power-menu-popup .button.hover {
-	background-color: var(--bg-button-hover);
-	border: 4px solid var(--bg-button-hover);
+	background-color: rgb(65, 52, 42);
+	border: 4px solid rgb(65, 52, 42);
 }
 .power-menu-popup .button .label {
 	margin-bottom: 8px;
@@ -146,22 +146,22 @@
 /* ICONS */
 .icon {
 	font-size: 16px;
-	color: var(--primary);
+	color: #b8956a;
 }
 .volume-widget .icon {
-	color: var(--primary);
+	color: #b8956a;
 	margin: 1px 2px 0 0;
 } 
 .start-menu .icon {
     font-size: 18px;
-	color: var(--primary)
+	color: #b8956a
 }
 /* WEATHER WIDGET */
 .weather-card {
-    background-color: var(--bg-tertiary);
+    background-color: rgba(30, 24, 20, 0.5);
 }
 .weather-card-today {
-    border: 1px solid var(--border-primary);
+    border: 1px solid #3d3228;
     border-radius: 8px;
     background-color:  rgba(17, 17, 27, 0.2);
 }
@@ -182,18 +182,18 @@
     padding: 5px 0;
 }
 .weather-card-day {
-    border: 1px solid var(--border-secondary);
+    border: 1px solid #4a3f35;
     border-radius: 8px;
     background-color:  rgba(30, 24, 20, 0.2);
 }
 
 .weather-card-day.active {
-    background-color: var(--bg-hover);
+    background-color: rgba(50, 40, 32, 0.6);
     border: 1px solid rgba(70, 56, 45, 1);
 }
 
 .weather-card-day:hover {
-    background-color: var(--bg-hover);
+    background-color: rgba(50, 40, 32, 0.6);
 }
 
 .weather-card-day .label {
@@ -201,8 +201,8 @@
 }
 
 .weather-card .hourly-container {
-    border: 1px solid var(--border-primary);
-    background-color: var(--primary-hover);
+    border: 1px solid #3d3228;
+    background-color: #6b5542;
     border-radius: 8px;
     min-height: 150px;
 }
@@ -210,25 +210,25 @@
 .weather-card .hourly-data {
     /* font-family: 'Segoe UI';*/
     /* color: cyan;*/ /* <- Font color */
-    background-color: var(--primary-hover); /* <- Curve color */
+    background-color: #c9a66b; /* <- Curve color */
     font-size: 12px;
     font-weight: bold;
 }
 
 .traffic-menu {
-    background-color: var(--bg-secondary);
+    background-color: rgba(35, 28, 24, 0.85);
     min-width: 280px;
 }
 .traffic-menu .header {
-    border-bottom: 1px solid var(--border-primary);
-    background-color: var(--bg-tertiary);
+    border-bottom: 1px solid rgba(212, 197, 176, 0.1);
+    background-color: rgba(35, 28, 24, 0.8);
 }
 .traffic-menu .header .title {
     padding: 8px;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Segoe UI';
-    color: var(--text-primary)
+    color: #d4c5b0
 }
 .traffic-menu .header .reset-button {
     font-size: 11px;
@@ -241,12 +241,12 @@
     border: none;
 }
 .traffic-menu .reset-button:hover {
-    color: var(--text-primary);
+    color: #d4c5b0;
     background-color: rgba(212, 197, 176, 0.05);
     border: 1px solid rgba(212, 197, 176, 0.1);
 }
 .traffic-menu .reset-button:pressed {
-    color: var(--text-primary);
+    color: #d4c5b0;
     background-color: rgba(212, 197, 176, 0.1);
     border: 1px solid rgba(212, 197, 176, 0.2);
 }
@@ -275,7 +275,7 @@
     font-size: 24px;
     font-weight: 900;
     font-family: 'Segoe UI';
-    color: var(--text-primary);
+    color: #d4c5b0;
     display: inline-block;
     min-width: 95px;
     text-align: right;
@@ -289,7 +289,7 @@
 }
 .traffic-menu .upload-speed-placeholder,
 .traffic-menu .download-speed-placeholder {
-    color: var(--text-tertiary);
+    color: #8b7355;
     font-size: 11px;
     font-family: 'Segoe UI';
     padding: 0 0 4px 0;
@@ -299,7 +299,7 @@
 .traffic-menu .section-title {
     font-size: 12px;
     font-weight: 600;
-    color: var(--text-secondary);
+    color: #9b8b7e;
     margin-bottom: 4px;
     font-family: 'Segoe UI';
 }
@@ -358,8 +358,7 @@
     font-size: 0px;
     margin: 0 3px;
     padding: 0;
-    background-color: var(--primary-dim);
-    opacity: 0.3;
+    background-color: rgba(184, 149, 106, 0.3);
     border-radius: 5px;
     width: 13px;
     height: 13px;
@@ -372,7 +371,7 @@
 }
 .windows-desktops .ws-btn.active {
     color: transparent;
-    background-color: var(--primary);
+    background-color: #b8956a;
     border-radius: 5px;
     width: 34px;
     height: 13px;
@@ -383,18 +382,17 @@
 } 
 
 .windows-desktops .context-menu {
-    background-color:var(--bg-tertiary);
+    background-color:rgba(30, 24, 20, 0.75);
     border: none;
     border-radius: 2px;
     padding: 8px 0;
 }
 .windows-desktops .context-menu .menu-item {
     padding: 6px 16px;
-    color: var(--text-primary);
 }
 .windows-desktops .context-menu .menu-item:hover {
-    background-color: var(--bg-hover);
-    color: var(--text-primary);
+    background-color: rgba(255,255,255,0.05);
+    color: #ffffff;
 }
 .windows-desktops .context-menu .separator {
     margin: 2px 0px 2px 0px;
@@ -403,7 +401,7 @@
 }
 
 .windows-desktops .rename-dialog {
-    background-color: var(--bg-tertiary);   
+    background-color: rgba(30, 24, 20, 0.75);   
 }
 .windows-desktops .rename-dialog QPushButton{
     background-color:rgba(255,255,255,0.1);
@@ -413,7 +411,7 @@
     border-radius: 4px;
 }
 .windows-desktops .rename-dialog QPushButton:hover{
-    background-color: var(--bg-button-hover);
+    background-color: #5a4a3a;
     color: #ffffff;
     border: none;
     padding: 4px 12px;
@@ -421,13 +419,13 @@
 }
  
 .windows-desktops .rename-dialog QLabel {
-    color: var(--text-primary);
+    color: #ffffff;
 }
 .windows-desktops .rename-dialog QLineEdit {
     background-color: transparent;
-    border: 1px solid var(--primary);
+    border: 1px solid #b8956a;
     padding: 4px;
-    color: var(--text-primary);
+    color: #ffffff;
 }
 .media-widget {
     padding: 0;
@@ -440,7 +438,7 @@
     overflow: visible;
 }
 .media-widget .label {
-    color: var(--text-primary);
+    color: #d4c5b0;
     padding: 4px 8px;
     padding-right: 8px;
     font-size: 12px;
@@ -449,27 +447,27 @@
     z-index: 2;
 }
 .media-widget .btn {
-    color: var(--primary);
+    color: #b8956a;
     padding: 0 4px;
     margin: 0;
     font-family: "Segoe Fluent Icons";
     font-weight: 400;
 }
 .media-widget .btn:hover {
-    color: var(--text-primary);
+    color: #d4c5b0;
 }
 .media-widget .btn.play {
     font-size: 16px;
 }
 .media-widget .btn.disabled:hover,
 .media-widget .btn.disabled {
-    color: var(--border-secondary);
+    color: #4a3f35;
     font-size: 12px;
 }
 .media-menu {
     min-width: 440px;
     max-width: 440px;
-    background-color: var(--bg-secondary);
+    background-color: rgba(30, 24, 20, 0.7);
     border-radius: 12px;
     position: relative;
     overflow: hidden;
@@ -485,14 +483,14 @@
 }
 .media-menu .artist {
     font-size: 13px;
-    color: var(--text-tertiary);
+    color: #8b7355;
     margin-top: 0px;
 }
 .media-menu .source {
     font-size: 11px;
     color: #000;
     border-radius: 3px;
-    background-color: var(--primary-hover);
+    background-color: #c9a66b;
     padding: 2px 4px;
     font-weight: 600;
     font-family: 'Segoe UI';
@@ -600,14 +598,14 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .media-menu .btn.disabled:hover,
 .media-menu .btn.disabled {
-    color: var(--border-secondary);
+    color: #4a3f35;
     background-color: rgba(0, 0, 0, 0);
 }
 
 .media-menu .playback-time {
     font-size: 13px;
     font-family: 'Segoe UI';
-    color: var(--text-secondary);
+    color: #9b8b7e;
     margin-top: 20px;
     min-width: 100px;
 }
@@ -630,7 +628,7 @@ Example: "Windows Media" becomes "windows-media" */
     background: rgba(212, 197, 176, 0.2);
 }
 .media-menu .progress-slider::sub-page {
-    background: var(--text-primary);
+    background: #d4c5b0;
     border-radius: 3px;
     height: 4px;
 }
@@ -655,7 +653,7 @@ Example: "Windows Media" becomes "windows-media" */
     border-radius: 3px;
 }
 .media-menu .app-volume-container .volume-slider::add-page {
-    background: var(--text-primary);
+    background: #d4c5b0;
     border-radius: 3px;
 }
 .media-menu .app-volume-container .volume-slider::groove:hover {
@@ -670,12 +668,12 @@ Example: "Windows Media" becomes "windows-media" */
 .media-menu .app-volume-container .mute-button,
 .media-menu .app-volume-container .unmute-button {
     font-size: 16px;
-    color: var(--text-primary);
+    color: #d4c5b0;
     font-family: "Segoe Fluent Icons";
     margin-top: 4px; 
 }
 .media-menu .app-volume-container .unmute-button {
-    color: var(--text-secondary);
+    color: #9b8b7e;
 }
 /* Clock Widget Styles */
 .clock-widget {
@@ -683,19 +681,19 @@ Example: "Windows Media" becomes "windows-media" */
     margin-right: 8px;
 }
 .clock-widget .icon {
-    color: var(--primary-hover);
+    color: #c9a66b;
     font-size: 14px;
     padding-right: 4px;
 }
 .clock-widget .icon.alarm {
-    color: var(--accent-warm);
+    color: #c17a5c;
     margin-left: 4px;
 }
 .clock-widget .label {
-    color: var(--primary-hover);
+    color: #c9a66b;
 }
 .clock-widget .label.alarm {
-    color: var(--primary);
+    color: #b8956a;
     margin-left: 4px;
 }
 
@@ -704,13 +702,13 @@ Example: "Windows Media" becomes "windows-media" */
 .clock-popup.timer,
 .clock-popup.calendar {
     min-width: 460px;
-    background-color: var(--bg-secondary);
+    background-color: rgba(30, 24, 20, 0.4);
 }
 
 .clock-popup.calendar .calendar-table,
 .clock-popup.calendar .calendar-table::item {
-    background-color: rgba(0, 0, 0, 0);
-    color: var(--text-secondary);
+    background-color: rgba(30, 24, 20, 0);
+    color: rgba(212, 197, 176, 0.85);
     font-family: 'Segoe UI';
     margin: 0;
     padding: 0;
@@ -718,9 +716,9 @@ Example: "Windows Media" becomes "windows-media" */
     outline: none;
 }
 .clock-popup.calendar .calendar-table::item:selected {
-    color: #ffffff;
+    color: #1f1916;
     font-weight: bold;
-    background-color: var(--primary);
+    background-color: #b8956a;
     border-radius: 12px;
 }
 .clock-popup.calendar .day-label {
@@ -731,7 +729,7 @@ Example: "Windows Media" becomes "windows-media" */
 .clock-popup.calendar .date-label {
     font-family: 'Segoe UI';
     font-size: 16px;
-    color: var(--text-primary);
+    color: #d4c5b0;
     font-weight: 700;
     min-width: 180px;
     max-width: 180px;
@@ -742,7 +740,7 @@ Example: "Windows Media" becomes "windows-media" */
 .clock-popup.calendar .date-label {
     font-size: 88px;
     font-weight: 900;
-    color: var(--primary);
+    color: rgb(212, 197, 176);
     margin-top: -20px;
 }
 .clock-popup.calendar .extended-container {
@@ -763,7 +761,7 @@ Example: "Windows Media" becomes "windows-media" */
     font-family: 'Segoe UI';
     font-weight: 600;
     margin: 4px 0 8px 0;
-    color: var(--text-primary);
+    color: #d4c5b0;
 }
 .clock-popup.calendar .extended-container .upcoming-events-item {
     font-size: 12px;
@@ -773,7 +771,7 @@ Example: "Windows Media" becomes "windows-media" */
     color: #b8a890;
 }
 .clock-popup.calendar .extended-container .upcoming-events-item:hover {
-    color: var(--text-primary);
+    color: #d4c5b0;
 }
 
 /* Alarm and Timer Dialog Containers */
@@ -791,7 +789,7 @@ Example: "Windows Media" becomes "windows-media" */
     font-size: 13px;
     font-family: 'Segoe UI';
     font-weight: 600;
-    color: var(--text-secondary);
+    color: #9b8b7e;
 }
 .clock-popup .clock-input-time {
     font-size: 48px;
@@ -799,7 +797,7 @@ Example: "Windows Media" becomes "windows-media" */
     border: none;
     font-family: monospace, "Tahoma", "Segoe UI";
     font-weight: 600;
-    color: var(--text-primary);
+    color: #d4c5b0;
 }
 .clock-popup .clock-input-time.colon {
     padding-bottom: 8px;
@@ -889,21 +887,21 @@ Example: "Windows Media" becomes "windows-media" */
 
 /* Active Alarm Popup Window */
 .active-alarm-window {
-    background-color: var(--bg-secondary);
+    background-color: rgba(45, 36, 30, 0.6);
     max-width: 500px;
     min-width: 500px;
     padding: 32px;
 }
 .active-alarm-window .alarm-title-icon {
     font-size: 64px;
-    color: var(--text-primary);
+    color: #d4c5b0;
     margin-bottom: 16px;
 }
 .active-alarm-window .alarm-title {
     font-size: 24px;
     font-family: 'Segoe UI';
     font-weight: 600;
-    color: var(--text-primary);
+    color: #d4c5b0;
     max-width: 500px;
     min-width: 500px;
 }
@@ -932,7 +930,7 @@ Example: "Windows Media" becomes "windows-media" */
     padding: 0 6px 0 6px;
 }
 .todo-widget .icon {
-    color: var(--primary);
+    color: #b8956a;
     padding: 0;
 }
 .todo-widget .label {
@@ -940,11 +938,11 @@ Example: "Windows Media" becomes "windows-media" */
     padding: 0;
 }
 .todo-widget .label span {
-    color: var(--primary);
+    color: #b8956a;
 }
 /* Todo Menu Styles */
 .todo-menu {
-    background-color: var(--bg-secondary);
+    background-color: rgba(35, 28, 24, 0.8);
     min-width: 400px;
     max-width: 400px;
     min-height: 500px;
@@ -957,7 +955,7 @@ Example: "Windows Media" becomes "windows-media" */
 .todo-menu .header .tab-buttons {
     border: none;
     border-radius: 13px;
-    color: var(--text-primary);
+    color: #d4c5b0;
     padding: 4px 8px;
     font-size: 14px;
     font-weight: 600;
@@ -969,21 +967,21 @@ Example: "Windows Media" becomes "windows-media" */
     font-size: 12px;
 }
 .todo-menu .header .add-task-button:hover {
-    background-color: var(--primary-dim);
+    background-color: #8b6f47;
 }
 .todo-menu .header .tab-buttons.in-progress,
 .todo-menu .header .tab-buttons.completed {
     background-color: transparent;
 }
 .todo-menu .header .tab-buttons.in-progress:checked {
-    color: var(--primary-hover);
+    color: #c9a66b;
 }
 .todo-menu .header .tab-buttons.completed:checked {
-    color: var(--accent-warm);
+    color: #c17a5c;
 }
 .todo-menu .header .tab-buttons.sort {
     background-color: rgba(212, 197, 176, 0.1);
-    color: var(--text-primary);
+    color: #d4c5b0;
     border-radius: 10px;
     min-height: 20px;
     min-width: 20px;
@@ -999,13 +997,13 @@ Example: "Windows Media" becomes "windows-media" */
 .todo-menu .no-tasks {
     font-family: 'Segoe UI';
     font-size: 18px;
-    color: var(--text-secondary);
+    color: #9b8b7e;
     font-weight: 400;
     margin-top: 16px;
 }
 .todo-menu .no-tasks-icon {
     font-size: 80px;
-    color: var(--text-secondary);
+    color: #9b8b7e;
     font-family: "JetBrainsMono NFP";
     margin-top: 64px;
     font-weight: 400;
@@ -1027,10 +1025,10 @@ Example: "Windows Media" becomes "windows-media" */
 .todo-menu .task-item.drop-highlight:hover,
 .todo-menu .task-item.drop-highlight:focus {
     background-color: rgba(139, 111, 71, 0.26);
-    border: 1px solid var(--primary-dim);
+    border: 1px solid #8b6f47;
 }
 .todo-menu .task-item .title {
-    color: var(--text-primary);
+    color: #d4c5b0;
     font-size: 13px;
     font-weight: 600;
     font-family: 'Segoe UI';
@@ -1040,10 +1038,10 @@ Example: "Windows Media" becomes "windows-media" */
 .todo-menu .task-item.completed .title,
 .todo-menu .task-item.completed .description {
     text-decoration: line-through;
-    color: var(--text-tertiary);
+    color: #8b7355;
 }
 .todo-menu .task-item .description {
-    color: var(--primary-hover);
+    color: #c9a66b;
     font-size: 12px;
     font-weight: 600;
     padding: 0 8px 8px 8px;
@@ -1055,11 +1053,11 @@ Example: "Windows Media" becomes "windows-media" */
     margin-left: 12px;
     margin-top: 5px;
     font-size: 18px;
-    color: var(--text-primary);
+    color: #d4c5b0;
     font-family: 'JetBrainsMono NFP';
 }
 .todo-menu .task-checkbox:checked {
-    color: var(--text-tertiary);
+    color: #8b7355;
 }
 
 /* Task info row styles */
@@ -1071,7 +1069,7 @@ Example: "Windows Media" becomes "windows-media" */
 .todo-menu .task-info-row .category-text {
     font-family: 'Segoe UI';
     font-weight: 600;
-    color: var(--text-tertiary);
+    color: #8b7355;
     font-size: 13px;
     padding-left: 0px;
     margin-right: 12px;
@@ -1079,14 +1077,14 @@ Example: "Windows Media" becomes "windows-media" */
 .todo-menu .task-info-row .date-icon,
 .todo-menu .task-info-row .category-icon {
     font-weight: 400;
-    color: var(--text-secondary);
+    color: #9b8b7e;
     font-size: 14px;
     font-family: 'JetBrainsMono NFP';
     margin-top: 1px;
 }
 .todo-menu .task-info-row .category-text.important,
 .todo-menu .task-info-row .category-icon.important {
-    color: var(--accent-warm);
+    color: #c17a5c;
 }
 .todo-menu .task-info-row .category-text.urgent,
 .todo-menu .task-info-row .category-icon.urgent {
@@ -1094,7 +1092,7 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .todo-menu .task-info-row .category-text.soon,
 .todo-menu .task-info-row .category-icon.soon {
-    color: var(--primary-hover);
+    color: #c9a66b;
 }
 .todo-menu .task-info-row .category-text.today,
 .todo-menu .task-info-row .category-icon.today {
@@ -1130,13 +1128,13 @@ Example: "Windows Media" becomes "windows-media" */
 .todo-menu .app-dialog .title-field,
 .todo-menu .app-dialog .desc-field {
     background-color: #241e1a;
-    border: 1px solid var(--border-primary);
+    border: 1px solid #3d3228;
     border-radius: 4px;
     padding: 0 6px;
     font-family: 'Segoe UI';
     font-size: 12px;
     font-weight: 600;
-    color: var(--text-primary);
+    color: #d4c5b0;
     margin: 10px 0px 5px 0;
     min-height: 30px;
 }
@@ -1145,10 +1143,10 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .todo-menu .app-dialog .title-field:focus,
 .todo-menu .app-dialog .desc-field:focus {
-    border-bottom-color: var(--primary);
+    border-bottom-color: #b8956a;
 }
 .todo-menu .app-dialog .button {
-    background-color: var(--border-primary);
+    background-color: #3d3228;
     border: none;
     border-radius: 4px;
     font-family: 'Segoe UI';
@@ -1170,20 +1168,20 @@ Example: "Windows Media" becomes "windows-media" */
 }
 .todo-menu .app-dialog .button:focus,
 .todo-menu .app-dialog .button:hover {
-    background-color: var(--bg-button-hover);
+    background-color: #5a4a3a;
 }
 .todo-menu .app-dialog .button:pressed {
-    background-color: var(--border-secondary);
+    background-color: #4a3f35;
 }
 .todo-menu .app-dialog .button.add {
-    background-color: var(--primary-dim);
+    background-color: #8b6f47;
 }
 .todo-menu .app-dialog .button.add:focus,
 .todo-menu .app-dialog .button.add:hover {
-    background-color: var(--primary-hover);
+    background-color: #6b5542;
 }
 .todo-menu .app-dialog .button.add:pressed {
-    background-color: var(--bg-button-hover);
+    background-color: #5a4a3a;
 }
 .todo-menu .app-dialog .warning-message {
     background-color: #2b1e16;
@@ -1197,44 +1195,44 @@ Example: "Windows Media" becomes "windows-media" */
     margin: 4px 0px;
 }
 .todo-menu .app-dialog .category-button {
-    background-color: var(--border-primary);
+    background-color: #3d3228;
     border: none;
     border-radius: 4px;
     font-family: 'Segoe UI';
     font-size: 11px;
     font-weight: 700;
-    color: var(--text-secondary);
+    color: #9b8b7e;
     padding: 0 6px;
     margin-top: 8px;
     min-height: 24px;
     outline: none;
 }
 .todo-menu .app-dialog .category-button:checked {
-    background-color: var(--primary-hover);
-    color: var(--text-primary);
+    background-color: #6b5542;
+    color: #d4c5b0;
 }
 .home-widget {
     padding: 0 4px 0 12px;
 }
 .home-widget .icon {
-    color: var(--primary);
+    color: #b8956a;
 }
 .home-widget .icon:hover {
-    color: var(--text-primary);
+    color: #d4c5b0;
 }
 .home-menu {
-    background-color: var(--bg-tertiary); 
+    background-color: rgba(30, 24, 20, 0.75); 
 }
 .home-menu .menu-item {
     padding: 6px 48px 7px 16px;
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--text-primary); 
+    color: #d4c5b0; 
     font-weight: 600;
 }
 .home-menu .menu-item:hover {
-    background-color: var(--bg-hover);
-    color: var(--text-primary);
+    background-color: rgba(212, 197, 176, 0.1);
+    color: #fff;
 }
 .home-menu .separator {
     max-height: 1px;
