@@ -539,7 +539,7 @@ widgets:
       bar_width: 3
       bar_type: "bars"
       framerate: 60
-      noise_reduction: 5.85
+      noise_reduction: 6
       monstercat: 0
       waves: 1
       sensitivity: 70
