@@ -41,7 +41,7 @@ bars:
     widgets:
       left: ["home","windows_workspaces","cava","cpu",
           "memory"]
-      center: ["clock"]
+      center: ["clock","todo"]
       right:
         ["media","traffic",
           "microphone",

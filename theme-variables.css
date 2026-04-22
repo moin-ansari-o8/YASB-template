@@ -16,9 +16,9 @@
     /* Background colors */
     --bg-primary: rgba(207, 197, 187, 0.95);
     --bg-secondary: rgba(230, 220, 210, 0.95);
-    --bg-tertiary: rgba(245, 250, 255, 0.2);
-    --bg-hover: rgba(230, 240, 250, 0.3);
-    --bg-button-hover: rgba(220, 235, 245, 0.4);
+    --bg-tertiary: rgba(235, 225, 215, 0.8);
+    --bg-hover: rgba(215, 205, 195, 0.6);
+    --bg-button-hover: rgba(210, 200, 190, 0.7);
     
     /* Border colors */
     --border-primary: rgb(180, 170, 160);

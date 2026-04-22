@@ -18,7 +18,7 @@
 }
 
 QMenu {
-    background-color: var(--bg-secondary);
+    background-color: #e6ddd4;
     color: var(--text-primary);
     border: 1px solid var(--border-primary);
     border-radius: 8px;
@@ -32,7 +32,33 @@ QMenu::item {
 }
 
 QMenu::item:selected {
-    background-color: var(--bg-button-hover);
+    background-color: #d1c7bc;
+}
+
+QMenu::indicator, QCheckBox::indicator {
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+}
+
+QMenu::indicator:non-exclusive:unchecked, QCheckBox::indicator:unchecked {
+    background-color: #f2ebe4;
+    border: 1px solid #736b60;
+    border-radius: 3px;
+    image: none;
+}
+
+QMenu::indicator:non-exclusive:checked, QCheckBox::indicator:checked {
+    background-color: #f2ebe4;
+    border: 1px solid #736b60;
+    border-radius: 3px;
+    image: url("C:/Users/monst/.config/yasb/check.svg");
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: var(--border-primary);
+    margin: 4px 6px;
 }
 
 .widget {

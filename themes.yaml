@@ -38,9 +38,9 @@ themes:
     # Background colors - very transparent with blur
     bg_primary: "rgba(207, 197, 187, 0.95)"     # Main bar - updated rgb(207, 197, 187)
     bg_secondary: "rgba(230, 220, 210, 0.95)"   # Popup backgrounds - much lighter/opaque now
-    bg_tertiary: "rgba(245, 250, 255, 0.2)"     # Card backgrounds
-    bg_hover: "rgba(230, 240, 250, 0.3)"        # Hover state
-    bg_button_hover: "rgba(220, 235, 245, 0.4)" # Button hover
+    bg_tertiary: "rgba(235, 225, 215, 0.8)"     # Card backgrounds
+    bg_hover: "rgba(215, 205, 195, 0.6)"        # Hover state
+    bg_button_hover: "rgba(210, 200, 190, 0.7)" # Button hover
     # Border colors
     border_primary: "rgb(180, 170, 160)"    # Subtle borders (darker than bg)
     border_secondary: "rgb(190, 180, 170)"  # Lighter borders
