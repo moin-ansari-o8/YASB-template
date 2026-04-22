@@ -359,7 +359,7 @@ QMenu::separator {
 }
 .traffic-menu .data-text {
     font-size: 13px;
-    color: #afb5cc;
+    color: #635b52;
     padding: 2px 0;
     font-family: 'Segoe UI';
 
@@ -375,7 +375,7 @@ QMenu::separator {
 .traffic-menu .interface-info,
 .traffic-menu .internet-info {
     font-size: 12px;
-    color: #6f7486;
+    color: #8c8276;
     padding: 8px 0;
     font-family: 'Segoe UI';
 }
@@ -383,12 +383,12 @@ QMenu::separator {
     background-color: rgba(68, 68, 68, 0.1);
 }
 .traffic-menu .internet-info.connected {
-    background-color: rgba(166, 227, 161, 0.096);
-    color: #a6e3a1;
+    background-color: rgba(145, 160, 110, 0.15);
+    color: #5c6e46;
 }
 .traffic-menu .internet-info.disconnected {
-    background-color: rgba(243, 139, 168, 0.1);
-    color: #f38ba8;
+    background-color: rgba(220, 120, 120, 0.15);
+    color: #a84b4b;
 }
 .windows-desktops {
     padding: 0 2px 0 6px;
