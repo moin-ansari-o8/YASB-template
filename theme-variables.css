@@ -4,25 +4,25 @@
 
 :root {
     /* Primary colors */
-    --primary: #a0d0e8;
-    --primary-dim: #7098b8;
-    --primary-hover: #b8e0f8;
+    --primary: rgb(22, 22, 20);
+    --primary-dim: rgb(22, 22, 20);
+    --primary-hover: rgb(22, 22, 20);
     
     /* Text colors */
-    --text-primary: #e8f0f8;
-    --text-secondary: #d0d8e0;
-    --text-tertiary: #c0c8d0;
+    --text-primary: rgb(22, 22, 20);
+    --text-secondary: rgb(22, 22, 20);
+    --text-tertiary: rgb(22, 22, 20);
     
     /* Background colors */
-    --bg-primary: rgba(255, 255, 255, 0.15);
-    --bg-secondary: rgba(250, 252, 255, 0.25);
+    --bg-primary: rgba(207, 197, 187, 0.95);
+    --bg-secondary: rgba(230, 220, 210, 0.95);
     --bg-tertiary: rgba(245, 250, 255, 0.2);
     --bg-hover: rgba(230, 240, 250, 0.3);
     --bg-button-hover: rgba(220, 235, 245, 0.4);
     
     /* Border colors */
-    --border-primary: #a8b8c8;
-    --border-secondary: #b8c8d8;
+    --border-primary: rgb(180, 170, 160);
+    --border-secondary: rgb(190, 180, 170);
     
     /* Special colors */
     --accent-warm: #88a8c8;

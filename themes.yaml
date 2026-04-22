@@ -28,21 +28,21 @@ themes:
     
   snow-light:
     # Primary colors - cool white/snow tones
-    primary: "#a0d0e8"           # Cooler blue accent
-    primary_dim: "#7098b8"       # Dimmer blue
-    primary_hover: "#b8e0f8"     # Hover blue
+    primary: "rgb(22, 22, 20)"           # Cooler blue accent
+    primary_dim: "rgb(22, 22, 20)"       # Dimmer blue
+    primary_hover: "rgb(22, 22, 20)"     # Hover blue
     # Text colors - white snow variants
-    text_primary: "#e8f0f8"      # Snow white with slight blue tint
-    text_secondary: "#d0d8e0"    # Medium snow white
-    text_tertiary: "#c0c8d0"     # Darker snow white
+    text_primary: "rgb(22, 22, 20)"      # Snow white with slight blue tint
+    text_secondary: "rgb(22, 22, 20)"    # Medium snow white
+    text_tertiary: "rgb(22, 22, 20)"     # Darker snow white
     # Background colors - very transparent with blur
-    bg_primary: "rgba(255, 255, 255, 0.15)"     # Main bar - very transparent white
-    bg_secondary: "rgba(250, 252, 255, 0.25)"   # Popup backgrounds - slightly less transparent
+    bg_primary: "rgba(207, 197, 187, 0.95)"     # Main bar - updated rgb(207, 197, 187)
+    bg_secondary: "rgba(230, 220, 210, 0.95)"   # Popup backgrounds - much lighter/opaque now
     bg_tertiary: "rgba(245, 250, 255, 0.2)"     # Card backgrounds
     bg_hover: "rgba(230, 240, 250, 0.3)"        # Hover state
     bg_button_hover: "rgba(220, 235, 245, 0.4)" # Button hover
     # Border colors
-    border_primary: "#a8b8c8"    # Subtle borders
-    border_secondary: "#b8c8d8"  # Lighter borders
+    border_primary: "rgb(180, 170, 160)"    # Subtle borders (darker than bg)
+    border_secondary: "rgb(190, 180, 170)"  # Lighter borders
     # Special colors
     accent_warm: "#88a8c8"       # Cool accent (power menu)

@@ -13,8 +13,28 @@
 	padding: 0 8px;
 	margin: 0;
     background-color: var(--bg-primary);
+    border: 1px solid var(--border-primary);
     border-radius: 16px;
 }
+
+QMenu {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-primary);
+    border-radius: 8px;
+    padding: 4px;
+}
+
+QMenu::item {
+    padding: 6px 20px;
+    border-radius: 4px;
+    color: var(--text-primary);
+}
+
+QMenu::item:selected {
+    background-color: var(--bg-button-hover);
+}
+
 .widget {
 	padding: 0 10px;
 	margin: 0;

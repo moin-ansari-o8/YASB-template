@@ -21,12 +21,12 @@ bars:
       enabled: true
       duration: 1000
     blur_effect:
-      enabled: true
+      enabled: false
       acrylic: false
       dark_mode: false
-      round_corners: true
+      round_corners: false
       round_corners_type: "normal"
-      border_color: "System"
+      border_color: "None"
     window_flags:
       always_on_top: false
       windows_app_bar: true
@@ -40,7 +40,7 @@ bars:
       right: 6
     widgets:
       left: ["home","windows_workspaces","cava","cpu",
-          "memory","todo"]
+          "memory"]
       center: ["clock"]
       right:
         ["media","traffic",
@@ -52,7 +52,7 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "<span>\udb81\udf17</span>"
+      label: "<span style='padding-right: 6px;'>\udb81\udf17<\/span>"
       menu_list:
         - { title: "My Crib", path: "C:\\Users\\monst" }
         - { title: "Loot Bag", path: "C:\\Users\\monst\\Downloads" }
@@ -123,7 +123,7 @@ widgets:
         ease_pos: 0.8
         ease_min: 0.5
       label_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [1, 1]
@@ -221,7 +221,7 @@ widgets:
         bottom: 0
         right: 0
       label_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
@@ -270,7 +270,7 @@ widgets:
         current_line_width: 1 # can be 0 to hide the current hour line
         current_line_style: "dot"
       label_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [1, 1]
@@ -384,7 +384,7 @@ widgets:
       callbacks:
         on_right: "exec cmd /c Taskmgr"
       label_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [1, 1]
@@ -413,7 +413,7 @@ widgets:
         - "\u2587" # 70%
         - "\u2588" # 80%+
       label_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [1, 1]
@@ -436,7 +436,7 @@ widgets:
         on_left: "toggle_menu"
         on_right: "toggle_label"
       label_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [1, 1]
@@ -446,7 +446,7 @@ widgets:
       label_workspace_btn: "\udb81\udc3d"
       label_workspace_active_btn: "\udb81\udc3e"
       btn_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [1, 1]
@@ -493,7 +493,7 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "<span>\udb81\udf17</span>"
+      label: "<span style='padding-right: 6px;'>\udb81\udf17<\/span>"
       menu_list:
       - { title: "User Home", path: "C:\\Users\\monst" }
       - { title: "Download", path: "C:\\Users\\monst\\Downloads" }
@@ -520,7 +520,7 @@ widgets:
         about: "About This PC"
         task_manager: "Task Manager"
       label_shadow:
-        enabled: true
+        enabled: false
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
@@ -530,10 +530,10 @@ widgets:
       bar_height: 16
       min_bar_height: 2
       gradient: 1
-      foreground: "#7098b8"
-      gradient_color_1: '#4a5a6a'
-      gradient_color_2: '#7098b8'
-      gradient_color_3: '#a0d0e8'
+      foreground: "#161614"
+      gradient_color_1: "#161614"
+      gradient_color_2: "#161614"
+      gradient_color_3: "#161614"
       bars_number: 20
       bar_spacing: 3
       bar_width: 3
