@@ -1632,3 +1632,30 @@ _ctypes.COMError: (-2147023174, 'The RPC server is unavailable.', (None, None, N
 2026-04-22 12:41:23,262 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
 2026-04-22 12:42:20,653 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
 2026-04-22 12:42:30,181 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
+2026-04-22 12:44:12,167 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
+2026-04-22 12:44:17,175 [DEBUG] [Thread-6] [root/watcher.py:97]: Imported stylesheet modified: c:\users\monst\.config\yasb\theme-variables.css
+2026-04-22 12:46:22,645 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
+2026-04-22 12:47:46,002 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
+2026-04-22 12:48:27,454 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
+2026-04-22 12:55:08,674 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\monst\.config\yasb\config.yaml
+2026-04-22 12:55:18,310 [INFO] [MainThread] [root/controller.py:21]: Reloading Bar from context menu...
+2026-04-22 12:55:18,421 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-22 12:55:18,422 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-22 12:55:19,571 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping WindowsNotificationEventListener...
+2026-04-22 12:55:19,636 [INFO] [MainThread] [pyvda.notification/notification.py:168]: Unregistered desktop notification (cookie=26)
+2026-04-22 12:55:20,104 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-22 12:55:20,104 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-22 12:55:20,105 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-22 12:55:20,202 [INFO] [MainThread] [root/main.py:123]: Debug mode enabled.
+2026-04-22 12:55:20,282 [DEBUG] [MainThread] [pyvda.build/build.py:53]: Starting feature detection...
+2026-04-22 12:55:20,283 [DEBUG] [MainThread] [pyvda.build/build.py:57]: Feature detection complete. Windows version is over 26100
+2026-04-22 12:55:20,345 [INFO] [MainThread] [pyvda.notification/notification.py:161]: Registered desktop notification (cookie=27)
+2026-04-22 12:55:20,345 [INFO] [MainThread] [core.utils.widgets.windows_desktops.service/service.py:108]: Registered COM virtual desktop event successfully
+2026-04-22 12:55:20,811 [INFO] [MainThread] [root/traffic.py:74]: Internet checker initialized for interface auto
+2026-04-22 12:55:20,837 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-04-22 12:55:20,938 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-22 12:55:21,003 [INFO] [MainThread] [root/app_bar.py:140]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 38px, DPI Scale: 1.0]
+2026-04-22 12:55:21,571 [INFO] [MainThread] [root/bar_manager.py:95]: Starting WindowsNotificationEventListener...
+2026-04-22 12:55:21,575 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\monst\.config\yasb
+2026-04-22 12:55:21,575 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-22 12:55:21,679 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started

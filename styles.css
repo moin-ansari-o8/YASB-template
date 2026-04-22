@@ -488,7 +488,8 @@ QMenu::separator {
     overflow: visible;
 }
 .media-widget .label {
-    color: var(--text-primary);
+    color: #f5e4db;
+    font-weight: 700;
     padding: 4px 8px;
     padding-right: 8px;
     font-size: 12px;
