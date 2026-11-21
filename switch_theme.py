@@ -15,14 +15,14 @@ def list_available_themes():
     with open(config_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Find the themes section
-    themes_section_match = re.search(r'^themes:\s*\n((?:  [a-z-]+:.*\n(?:    .*\n)*)+)', content, re.MULTILINE)
+    themes_section_match = re.search(r'^themes:[ \t]*\r?$', content, re.MULTILINE)
     if not themes_section_match:
         return []
-    
-    # Find theme names (lines that start with 2 spaces and end with colon)
-    theme_pattern = r'^  ([a-z-]+):\s*$'
-    themes = re.findall(theme_pattern, themes_section_match.group(1), re.MULTILINE)
+
+    # Find theme names only after the themes section. Ignore nested color keys.
+    themes_text = content[themes_section_match.end():]
+    theme_pattern = r'^  ([a-z][a-z0-9-]*):[ \t]*\r?$'
+    themes = re.findall(theme_pattern, themes_text, re.MULTILINE)
     return themes
 
 def get_current_theme():
@@ -87,7 +87,7 @@ def main():
         print(f"Current theme: {current}")
         print(f"\nAvailable themes:")
         for theme in available:
-            marker = " ← current" if theme == current else ""
+            marker = " <- current" if theme == current else ""
             print(f"  - {theme}{marker}")
         print("\nUsage: python switch_theme.py <theme_name>")
         print(f"Example: python switch_theme.py {[t for t in available if t != current][0]}")

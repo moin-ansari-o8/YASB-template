@@ -81,6 +81,7 @@ def generate_theme_css(cur_theme, theme_data):
     --primary: {theme_data.get('primary', '#b8956a')};
     --primary-dim: {theme_data.get('primary_dim', '#8b6f47')};
     --primary-hover: {theme_data.get('primary_hover', '#c9a66b')};
+    --icon-light: {theme_data.get('icon_light', '#57ad63')};
     
     /* Text colors */
     --text-primary: {theme_data.get('text_primary', '#d4c5b0')};

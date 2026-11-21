@@ -13,7 +13,7 @@
 	padding: 0 8px;
 	margin: 0;
     background-color: var(--bg-primary);
-    border: 1px solid var(--border-primary);
+    border: 1px solid #004300;
     border-radius: 16px;
 }
 
@@ -198,6 +198,23 @@ QMenu::separator {
 	color: var(--primary);
 	margin: 1px 2px 0 0;
 } 
+.home-widget .icon,
+.home-widget .label span,
+.cpu-widget .icon,
+.cpu-widget .label span,
+.memory-widget .icon,
+.memory-widget .label span,
+.microphone-widget .icon,
+.microphone-widget .label span,
+.volume-widget .icon,
+.volume-widget .label span,
+.notifications-widget .icon,
+.notifications-widget .label span {
+    color: var(--icon-light);
+}
+.glazewm-workspaces .ws-btn {
+    color: var(--icon-light);
+}
 .start-menu .icon {
     font-size: 18px;
 	color: var(--primary)
@@ -400,7 +417,7 @@ QMenu::separator {
 }
 .windows-desktops .ws-btn {
     color: transparent;
-    border: 2px solid var(--text-primary);
+    border: 2px solid var(--icon-light);
     font-size: 0px;
     margin: 0 3px;
     margin-bottom: 3px;
@@ -420,7 +437,7 @@ QMenu::separator {
 .windows-desktops .ws-btn.active {
     color: transparent;
     border: none;
-    background-color: var(--primary);
+    background-color: var(--text-primary);
     border-radius: 7px;
     width: 37px;
     height: 16px;
@@ -732,7 +749,7 @@ Example: "Windows Media" becomes "windows-media" */
     margin-right: 8px;
 }
 .clock-widget .icon {
-    color: var(--primary-hover);
+    color: var(--text-primary);
     font-size: 14px;
     padding-right: 4px;
 }
@@ -741,7 +758,7 @@ Example: "Windows Media" becomes "windows-media" */
     margin-left: 4px;
 }
 .clock-widget .label {
-    color: var(--primary-hover);
+    color: var(--text-primary);
 }
 .clock-widget .label.alarm {
     color: var(--primary);
@@ -1266,7 +1283,7 @@ Example: "Windows Media" becomes "windows-media" */
     padding: 0 4px 0 12px;
 }
 .home-widget .icon {
-    color: var(--primary);
+    color: var(--text-primary);
 }
 .home-widget .icon:hover {
     color: var(--text-primary);

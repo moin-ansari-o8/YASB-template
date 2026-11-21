@@ -1,29 +1,30 @@
 /* Auto-generated theme file - DO NOT EDIT MANUALLY */
-/* Current theme: snow-light */
+/* Current theme: samurai-green */
 /* To switch themes, change 'cur_theme' in config.yaml and run: python apply_theme.py */
 
 :root {
     /* Primary colors */
-    --primary: rgb(22, 22, 20);
-    --primary-dim: rgb(22, 22, 20);
-    --primary-hover: rgb(22, 22, 20);
+    --primary: #1f572d;
+    --primary-dim: #163d22;
+    --primary-hover: #245f32;
+    --icon-light: #004300;
     
     /* Text colors */
-    --text-primary: rgb(22, 22, 20);
-    --text-secondary: rgb(22, 22, 20);
-    --text-tertiary: rgb(22, 22, 20);
+    --text-primary: #123d20;
+    --text-secondary: #1f4f2b;
+    --text-tertiary: #315a39;
     
     /* Background colors */
-    --bg-primary: rgba(207, 197, 187, 0.95);
-    --bg-secondary: rgba(230, 220, 210, 0.95);
-    --bg-tertiary: rgba(235, 225, 215, 0.8);
-    --bg-hover: rgba(215, 205, 195, 0.6);
-    --bg-button-hover: rgba(210, 200, 190, 0.7);
+    --bg-primary: rgba(156, 165, 158, 0.95);
+    --bg-secondary: rgba(182, 190, 184, 0.95);
+    --bg-tertiary: rgba(204, 210, 205, 0.82);
+    --bg-hover: rgba(174, 181, 175, 0.68);
+    --bg-button-hover: rgba(188, 194, 189, 0.72);
     
     /* Border colors */
-    --border-primary: rgb(180, 170, 160);
-    --border-secondary: rgb(190, 180, 170);
+    --border-primary: rgba(116, 135, 120, 0.85);
+    --border-secondary: rgba(145, 158, 148, 0.85);
     
     /* Special colors */
-    --accent-warm: #88a8c8;
+    --accent-warm: #2f8040;
 }

@@ -2,7 +2,7 @@
 # Switch between themes by changing cur_theme value
 # After changing, run: python switch_theme.py <theme-name>
 
-cur_theme: "snow-light"  # Options: "golden-light", "snow-light", or your custom theme
+cur_theme: "samurai-green"  # Options: "golden-light", "snow-light", "samurai-green", or your custom theme
 
 themes:
   golden-light:
@@ -46,3 +46,25 @@ themes:
     border_secondary: "rgb(190, 180, 170)"  # Lighter borders
     # Special colors
     accent_warm: "#88a8c8"       # Cool accent (power menu)
+
+  samurai-green:
+    # Primary colors - extracted from the green accents
+    primary: "#1f572d"
+    primary_dim: "#163d22"
+    primary_hover: "#245f32"
+    icon_light: "#004300"
+    # Text colors - dark green for contrast on the light background
+    text_primary: "#123d20"
+    text_secondary: "#1f4f2b"
+    text_tertiary: "#315a39"
+    # Background colors - sampled from the wallpaper's light stone tones
+    bg_primary: "rgba(156, 165, 158, 0.95)"
+    bg_secondary: "rgba(182, 190, 184, 0.95)"
+    bg_tertiary: "rgba(204, 210, 205, 0.82)"
+    bg_hover: "rgba(174, 181, 175, 0.68)"
+    bg_button_hover: "rgba(188, 194, 189, 0.72)"
+    # Border colors - muted green-gray
+    border_primary: "rgba(116, 135, 120, 0.85)"
+    border_secondary: "rgba(145, 158, 148, 0.85)"
+    # Special colors
+    accent_warm: "#2f8040"
