@@ -9993,3 +9993,54 @@ Current thread's C stack trace (most recent call first):
 2026-11-21 21:24:02,530 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\monst\.config\yasb
 2026-11-21 21:24:02,530 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
 2026-11-21 21:24:02,603 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-11-21 21:34:29,751 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
+2026-11-21 21:34:38,634 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-11-21 21:34:38,635 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-11-21 21:34:38,635 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-11-21 21:34:38,713 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-11-21 21:34:38,713 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-11-21 21:34:38,716 [INFO] [MainThread] [root/main.py:127]: Debug mode enabled.
+2026-11-21 21:34:38,771 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] HomeConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:34:38,954 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WindowsDesktopsConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-11-21 21:34:39,013 [INFO] [MainThread] [windows_desktop_service/service.py:108]: Registered COM virtual desktop event successfully
+2026-11-21 21:34:39,114 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:34:39,140 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MemoryConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:34:39,159 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ClockConfig: 'container_padding' - Use CSS padding instead.
+2026-11-21 21:34:39,159 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ClockConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:34:39,846 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:34:39,847 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'container_shadow' - Use CSS box-shadow instead.
+2026-11-21 21:34:39,860 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] TrafficWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:34:39,871 [DEBUG] [MainThread] [root/traffic.py:59]: Internet checker initialized for interface auto
+2026-11-21 21:34:39,902 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-11-21 21:34:40,006 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-11-21 21:34:40,065 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 38px, DPI Scale: 1.0]
+2026-11-21 21:34:40,679 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-11-21 21:34:40,685 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\monst\.config\yasb
+2026-11-21 21:34:40,685 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-11-21 21:34:40,787 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-11-21 21:35:17,276 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\monst\.config\yasb\styles.css
+2026-11-21 21:35:23,971 [DEBUG] [Thread-6] [root/watcher.py:97]: Imported stylesheet modified: c:\users\monst\.config\yasb\theme-variables.css
+2026-11-21 21:35:26,912 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-11-21 21:35:26,912 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-11-21 21:35:26,913 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-11-21 21:35:26,983 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-11-21 21:35:26,983 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-11-21 21:35:26,985 [INFO] [MainThread] [root/main.py:127]: Debug mode enabled.
+2026-11-21 21:35:27,034 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] HomeConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:35:27,105 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WindowsDesktopsConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-11-21 21:35:27,150 [INFO] [MainThread] [windows_desktop_service/service.py:108]: Registered COM virtual desktop event successfully
+2026-11-21 21:35:27,232 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:35:27,262 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MemoryConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:35:27,280 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ClockConfig: 'container_padding' - Use CSS padding instead.
+2026-11-21 21:35:27,280 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ClockConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:35:28,030 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:35:28,030 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'container_shadow' - Use CSS box-shadow instead.
+2026-11-21 21:35:28,043 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] TrafficWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-11-21 21:35:28,058 [DEBUG] [MainThread] [root/traffic.py:59]: Internet checker initialized for interface auto
+2026-11-21 21:35:28,090 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-11-21 21:35:28,208 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-11-21 21:35:28,334 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 38px, DPI Scale: 1.0]
+2026-11-21 21:35:28,950 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-11-21 21:35:28,955 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\monst\.config\yasb
+2026-11-21 21:35:28,955 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-11-21 21:35:29,084 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started

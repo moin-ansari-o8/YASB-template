@@ -53,6 +53,7 @@ themes:
     primary_dim: "#163d22"
     primary_hover: "#245f32"
     icon_light: "#004300"
+    media_text: "#4a8a50"
     # Text colors - dark green for contrast on the light background
     text_primary: "#123d20"
     text_secondary: "#1f4f2b"
